@@ -33,6 +33,15 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "5c8214115b7bf84099f1309324e63141d4c5d7cc26862f97a0a857dbefe165bd"
 
 [[package]]
+name = "bubs-world"
+version = "0.1.0"
+dependencies = [
+ "macroquad",
+ "neural-network-study",
+ "rand",
+]
+
+[[package]]
 name = "bytemuck"
 version = "1.23.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -135,15 +144,6 @@ checksum = "2e57e16b3fe8ff4364c0661fdaac543fb38b29ea9bc9c2f45612d90adf931d2b"
 dependencies = [
  "hashbrown",
  "ttf-parser",
-]
-
-[[package]]
-name = "gameandwatch"
-version = "0.1.0"
-dependencies = [
- "macroquad",
- "neural-network-study",
- "rand",
 ]
 
 [[package]]
